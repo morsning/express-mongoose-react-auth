@@ -63,3 +63,6 @@ We will discuss security in more detail later in this course, a good starting po
 * Logging errors (we typically use some package like: morgan for this)
 
 Start by reading up on the node package: Express-validator and add it to our project as an exercise.
+
+non verified alternative to bcrypt: 
+https://gist.github.com/skeggse/52672ddee97c8efec269
