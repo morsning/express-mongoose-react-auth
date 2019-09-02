@@ -42,7 +42,7 @@ const login = async (req, res) => {
     if (!matchingPasswords) {
         return res.status(400).send({ message: 'invalid combination' })
     }
-    const signedJWT = createJWT()
+    const signedJWT = createJWT(user)
     return res.status(201).send({ signedJWT })
 }
 
